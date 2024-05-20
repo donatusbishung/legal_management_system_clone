@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.lightgray {
+    background: #7C7C7C;
+}
+
+input {
+    outline: none !important;
+}
+.custom-subheader {
+    background-color: #595959!important;
+  }
+  .customItemsBtn {
+    background-color: #696969 !important;
+    color: white !important;
+    box-shadow: none !important;
+    /* margin-bottom: 2px !important; */
+  }
+  .custom-subheader:hover {
+    outline: none !important;
+    
+  }
+  .customItemsBtn:focus {
+    background-color: #4A4A4A !important;
+  }
+  /*/* styles.css */
+/* Target the date input field */
+input[type="date"] {
+  /* Apply styles to the entire input field */
+}
+
+/* Target the date input field icon */
+/* Path 434 */
+
+.hover-effect {
+  /* Background color for non-selected rows */
+  background-color: transparent; /* Set your desired background color */
+}
+
+.hover-effect-selected {
+  /* Background color for selected rows */
+  background-color: #4a4a4a; /* Set your desired background color */
+}
+
+/* Apply custom checkbox color */
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: #fff;
+}
+
+.MuiCheckbox-colorPrimary.Mui-checked:hover {
+ color: #4a4a4a !important;
+}
+.custom-header {
+  background-color: #DBDADA !important; /* Adjust the background color as needed */
+}.custom-column-header {
+  font-weight: bold;
+}
+
+
+.custom-box-style {
+  width: 210px;
+  height: 80px;
+  /* background: linear-gradient(179.78deg, #0B6993 12.22%, #66C2F2 115.53%); */
+  border-radius: 8px;
+}
+
+.total-bookings {
+  position: absolute;
+  /* left: 23.44%;
+  right: 70.26%;
+  top: 10.8%;
+  bottom: 87.84%; */
+  font-weight: 200;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.total-bookings-value {
+  /* position: absolute;
+  left: 23.44%;
+  right: 73.65%;
+  top: 12.56%;
+  bottom: 84.4%; */
+  font-weight: 500;
+
+  font-size: 32px;
+  /* line-height: 38px; */
+  color: #FFFFFF;
+}
+
+.sidebar {
+  width: 22%;
+  height: 100%;
+  background-color: #696969;
+  overflow-y: auto;
+}
+
+.main-content {
+  margin-left: 22%; /* Same as sidebar width */
+}
+
+.dashboard-header {
+  width: calc(100% - 22%); /* Subtract sidebar width from 100% */
+  margin-left: 22%; /* Same as sidebar width */
+  z-index: 10; /* Ensure it's above the sidebar */
+}
